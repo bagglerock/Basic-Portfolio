@@ -3,7 +3,9 @@
     font-color: #777;
 }
 
-body {}
+body {
+    background-image: url("../images/dust_scratches.png");
+}
 
 a, p {
     color: #777;
