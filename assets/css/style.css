@@ -7,7 +7,7 @@ body {
     background-image: url("../images/dust_scratches.png");
 }
 
-a, p {
+a, p, .separator{
     color: #777;
     text-decoration: none;
 }
@@ -80,8 +80,17 @@ img {
 .buttons {
     position: relative;
     top: 25px;
-    left: 490px;
+    left: 480px;
+}
+
+.links {
+    float: left;
+}
+
+.separator {
+    font-size: 25px;
     margin-right: 10px;
+    margin-top: -2px;
 }
 
 #header-box {
