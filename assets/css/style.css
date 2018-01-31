@@ -16,17 +16,21 @@ a {
     margin-right: 10px;
 }
 
-label, textarea {
+label {
     color: #777;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-input {
+input, textarea {
     width: 100%;
+    border-width: 1px;
+    border-color: lightgray;
     font-size: 15px;
     color: #777;
-    line-height: 25px;
+    line-height: 20px;
+    margin: 10 0 10 0;
+    resize: none;
 }
 
 ::placeholder {
@@ -100,7 +104,7 @@ img {
     height: 380px;
     width: 606px;
     margin-left: 100px;
-    line-height: 40px;
+    line-height: 30px;
 }
 
 .right-content {
@@ -131,4 +135,8 @@ img {
 #submit {
     background-color: #4aaaa5;
     color: white;
+    font-size: 20px;
+    height: 40px;
+    width: 125px;
+    margin-top: 10px;
 }
