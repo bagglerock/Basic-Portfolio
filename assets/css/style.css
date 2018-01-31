@@ -92,7 +92,7 @@ img {
     background-color: #4aaaa5;
 }
 
-.main-content, .right-content {
+.main-content, .connect {
     border-style: solid;
     border-width: 2px;
     border-color: #ccc;
@@ -107,13 +107,22 @@ img {
     line-height: 30px;
 }
 
-.right-content {
+.connect {
     position: absolute;
     left: 790px;
     height: 130px;
     width: 226px;
     overflow: hidden;
     text-align: center;
+}
+
+.connect-box{
+    width: 100%;
+    margin-left: 8px;
+}
+
+.connect-image {
+    margin: 0 2 0 2;
 }
 
 .footer {
