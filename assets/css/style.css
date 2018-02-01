@@ -106,7 +106,6 @@ h2 {
 
 .main {
     position: relative;
-    //background-color: purple;
     margin-left: 100px;
     max-height: 1000px;
     width: 960px;
@@ -136,13 +135,8 @@ h2 {
     text-align: center;
 }
 
-.connect-box{
-    width: 100%;
-    margin:15 0 0 6;
-}
-
 .connect-image {
-    margin: 0 2 0 2;
+    margin-left: 5px;
 }
 
 .connect-image:hover {
@@ -176,8 +170,6 @@ h2 {
 
 .portfolio-box {
     background-color: green;
-    //height: 300px;
-    //clear: both;
 }
 
 .portfolio-box-left {
@@ -185,6 +177,7 @@ h2 {
     background-color: red;
     height: 280px;
     width: 280px;
+    z-index: -10;
 }
 
 .portfolio-box-right {
@@ -194,7 +187,10 @@ h2 {
     width: 280px;
 }
 
-.body-clear {
-    clear: both;
-    background-color: orange;
+.portfolio-label {
+    position: absolute;
+    background-color: black;
+    width: 280;
+    height: 100;
+    z-index: 10;
 }
