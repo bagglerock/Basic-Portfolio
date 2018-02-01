@@ -187,13 +187,13 @@ h2 {
 }
 
 .portfolio-label {
-    position: absolute;
+    position: relative;
     background-color: black;
     color: white;
     font-size: 30px;
     width: 280;
     height: 100;
-    bottom:-80px;
+    bottom: 110px;
     text-align: center;
     padding: 25px;
 }
