@@ -169,28 +169,31 @@ h2 {
 }
 
 .portfolio-box {
-    background-color: green;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 .portfolio-box-left {
     float: left;
-    background-color: red;
-    height: 280px;
+    height: 220px;
     width: 280px;
-    z-index: -10;
 }
 
 .portfolio-box-right {
     float: right;
-    background-color: yellow;
-    height: 280px;
+    height: 220px;
     width: 280px;
 }
 
 .portfolio-label {
     position: absolute;
     background-color: black;
+    color: white;
+    font-size: 30px;
     width: 280;
     height: 100;
-    z-index: 10;
+    bottom:-80px;
+    text-align: center;
+    padding: 25px;
 }
