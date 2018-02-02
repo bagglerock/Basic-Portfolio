@@ -9,11 +9,15 @@ div {
     background-color: white;
 }
 
+#submit, .box-label, .header-title {
+    background-color: #4aaaa5;
+}
+
 p, .header-nav li, .header-nav a , label, input, textarea, ::placeholder, #submit {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.header-title h1, #submit, .portfolio-label{
+.header-title h1, #submit, .portfolio-label, .box-label {
     color: white;
 }
 
@@ -41,7 +45,6 @@ p, .header-nav li, .header-nav a,  label, input, textarea {
     height: 35px;
     width: 220px;
     margin-left: 100px;
-    background-color: #4aaaa5;
     text-align: center;
     padding: 20px;
 }
@@ -108,40 +111,36 @@ input, textarea {
 }
 
 #submit {
-    background-color: #4aaaa5;
     font-size: 20px;
     height: 40px;
     width: 125px;
     margin-top: 10px;
 }
 
-.portfolio-box {
-    display: inline-block;
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-.portfolio-box-left {
+.box-left {
     float: left;
-    height: 220px;
-    width: 280px;
+    display: inline-block;
+    margin: 0 0 20px 0;
+    height: 200px;
+    width: 270px;
 }
 
-.portfolio-box-right {
+.box-right {
     float: right;
-    height: 220px;
-    width: 280px;
+    display: inline-block;
+    margin: 0 0 20px 0;
+    height: 200px;
+    width: 270px;
 }
 
-.portfolio-label {
+.box-label {
     position: relative;
-    background-color:#4aaaa5;
-    font-size: 30px;
-    width: 240px;
-    height: 40px;
-    bottom: 110px;
+    display: inline-block;
+    width: 270px;
+    padding: 10px 0 10px 0;
+    top: -80px;
     text-align: center;
-    padding: 20px;
+    font-size: 25px;
 }
 
 .content {
