@@ -1,5 +1,12 @@
-.header {
+body {
+    background-image: url("../images/dust_scratches.png");
+}
+
+div {
     background-color: white;
+}
+
+.header {
     margin: 0 0 25px 0;
     height: 75px;
     width: 1160px;
@@ -9,10 +16,10 @@
 .header-title {
     display: inline-block;
     float: left;
-    background-color: #4aaaa5;
     height: 35px;
     width: 200px;
     margin-left: 100px;
+    background-color: #4aaaa5;
     text-align: center;
     padding: 20px;
 }
@@ -21,8 +28,7 @@
     position: absolute;
     display: scroll;
     float: left;
-    background-color: white;
-    margin-left: 800px;
+    margin-left: 820px;
     padding: 25px 0 0 0;
     width: 250px;
 }
@@ -41,10 +47,34 @@
 }
 
 .main {
-    background-color: orange;
+    background-color: transparent;
     margin: 0 0 0 100px;
     max-height: 1000px;
     width: 960px;
+}
+
+.main h1, .main h2 {
+    color: #4aaaa5;
+}
+
+.main h1 {
+    font-size: 35px;
+}
+
+.main h2 {
+    font-size: 25px;
+}
+
+.content {
+    float: left;
+    width: 600px;
+    padding: 25px;
+}
+
+.sidebar {
+    float: right;
+    width: 220px;
+    padding: 25px;
 }
 
 .footer {
