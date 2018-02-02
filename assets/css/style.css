@@ -1,202 +1,94 @@
-* {
-    font-family: Arial, Helvetica, sans-serif;
-    color:white;
-}
-
 body {
     background-image: url("../images/dust_scratches.png");
 }
 
-a, p, .separator{
-    color: #777;
-    text-decoration: none;
+div {
+    background-color: white;
 }
 
-a {
-    font-size: 20px;
-    float: left;
-    margin-right: 10px;
-}
-
-a:hover {
-    color: red;
-}
-
-label {
-    color: #777;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-input, textarea {
-    width: 100%;
-    border-width: 1px;
-    border-color: lightgray;
-    font-size: 15px;
-    color: #777;
-    line-height: 20px;
-    margin: 10px 0 10px 0;
-    resize: none;
-}
-
-::placeholder {
-    color: #aaa;
-
-}
-
-h1, h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-h1 {
-    font-size: 30px;
-}
-
-h2 {
-    font-size: 25px;
-}
-
-#main-image {
-    float: left;
-    margin-right: 20px;
-    margin-top: 10px;
-}
-
-.teal-header {
-    color: #4aaaa5;
-    font-weight: bold;
+.header, .footer {
+    width: 1160px;
 }
 
 .header {
-    margin: 0px;
+    margin: 0 0 25px 0;
     height: 75px;
-    width: 1160px;
-    margin-bottom: 25px;
-    background-color: white;
     border-bottom: 2px solid;
-    border-bottom-color: #ccc;
- }
-
-.buttons {
-    position: relative;
-    top: 25px;
-    left: 480px;
 }
 
-.links {
+.header-title {
+    display: inline-block;
     float: left;
-}
-
-.separator {
-    font-size: 25px;
-    margin-right: 10px;
-    margin-top: -2px;
-}
-
-#header-box {
-    float: left;
-    margin-left: 100px;
-    width: 200px;
     height: 35px;
-    padding: 20px;
-    text-align: center;
-    color: white;
+    width: 200px;
+    margin-left: 100px;
     background-color: #4aaaa5;
+    text-align: center;
+    padding: 20px;
+}
+
+.header-nav {
+    position: absolute;
+    display: scroll;
+    float: left;
+    margin-left: 820px;
+    padding: 25px 0 0 0;
+    width: 250px;
+}
+
+.header-nav li, .header-nav a {
+    display: inline;
+    color: #777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+.header-title h1 {
+    color: white;
+    font-size: 35px;
 }
 
 .main {
-    position: relative;
-    display: inline-block;
-    margin-left: 100px;
+    background-color: transparent;
+    margin: 0 0 0 100px;
     max-height: 1000px;
     width: 960px;
 }
 
-.main-content, .connect {
-    border-style: solid;
-    border-width: 2px;
-    border-color: #ccc;
-    padding: 20px;
-    background-color: white;
+.main h1, .main h2 {
+    color: #4aaaa5;
 }
 
-.main-content {
-    display: inline-block;
+.main h1 {
+    font-size: 35px;
+}
+
+.main h2 {
+    font-size: 25px;
+}
+
+.content {
     float: left;
-    max-height: 1000px;
-    width: 606px;
-    line-height: 30px;
+    width: 600px;
+    padding: 25px;
 }
 
-.connect {
-    display: inline-block;
-    position: relative;
-    left: 40px;
-    height: 130px;
-    width: 226px;
-    overflow: hidden;
+.sidebar {
+    float: right;
+    width: 220px;
+    padding: 25px;
     text-align: center;
-}
-
-.connect-image {
-    margin-left: 5px;
-}
-
-.connect-image:hover {
-    -webkit-transform: rotate(180deg);
 }
 
 .footer {
-    background-color: #666;
-    border-style: solid;
-    border-top-width: 8px;
-    border-color: #4aaaa5;
-    height: 25px;
-    position: absolute;
+    position: fixed;
+    background-color: #777;
     bottom: 0px;
-    width: 1160px;
-    left: 0px;
-    text-align: center;
-    clear: both;
+    margin: 25px 0 0 0;
+    height: 25px;
+    border-top: 8px solid #4aaaa5;
     color: #ccc;
-    padding-top: 40px;
-}
-
-#submit {
-    background-color: #4aaaa5;
-    color: white;
-    font-size: 20px;
-    height: 40px;
-    width: 125px;
-    margin-top: 10px;
-}
-
-.portfolio-box {
-    display: inline-block;
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-.portfolio-box-left {
-    float: left;
-    height: 220px;
-    width: 280px;
-}
-
-.portfolio-box-right {
-    float: right;
-    height: 220px;
-    width: 280px;
-}
-
-.portfolio-label {
-    position: relative;
-    background-color:#4aaaa5;
-    color: white;
-    font-size: 30px;
-    width: 240px;
-    height: 40px;
-    bottom: 110px;
+    padding: 50px 0 0 0;
     text-align: center;
-    padding: 20px;
 }
