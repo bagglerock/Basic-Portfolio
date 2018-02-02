@@ -164,8 +164,8 @@ input, textarea {
     border-radius: 6px;
     padding: 5px 0;
     position: relative;
-    top: -200px;
-    left: 20px;
+    top: -230px;
+    left: 10px;
     z-index: 1;
 }
 
