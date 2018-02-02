@@ -1,9 +1,28 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 body {
     background-image: url("../images/dust_scratches.png");
 }
 
 div {
     background-color: white;
+}
+
+p, .header-nav li, .header-nav a , label, input, textarea, ::placeholder, #submit {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-title h1, #submit, .portfolio-label{
+    color: white;
+}
+
+a:hover, .main h1, .main h2 {
+    color: #4aaaa5;
+}
+
+p, .header-nav li, .header-nav a,  label, input, textarea {
+    color: #777;
 }
 
 .header, .footer {
@@ -20,7 +39,7 @@ div {
     display: inline-block;
     float: left;
     height: 35px;
-    width: 200px;
+    width: 220px;
     margin-left: 100px;
     background-color: #4aaaa5;
     text-align: center;
@@ -38,19 +57,13 @@ div {
 
 p, .header-nav li, .header-nav a {
     display: inline;
-    color: #777;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
     letter-spacing: 2px;
 }
 
-a:hover {
-    color: red;
-}
-
 .header-title h1 {
-    color: white;
     font-size: 35px;
+    font-weight: bold;
 }
 
 .main {
@@ -67,12 +80,9 @@ a:hover {
     margin:0 30px 0 0; 
 }
 
-.main h1, .main h2 {
-    color: #4aaaa5;
-}
-
 .main h1 {
     font-size: 35px;
+    font-weight: bold;
 }
 
 .main h2 {
@@ -80,9 +90,7 @@ a:hover {
 }
 
 label {
-    color: #777;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 input, textarea {
@@ -90,7 +98,6 @@ input, textarea {
     border-width: 1px;
     border-color: lightgray;
     font-size: 15px;
-    color: #777;
     line-height: 20px;
     margin: 10px 0 10px 0;
     resize: none;
@@ -102,11 +109,39 @@ input, textarea {
 
 #submit {
     background-color: #4aaaa5;
-    color: white;
     font-size: 20px;
     height: 40px;
     width: 125px;
     margin-top: 10px;
+}
+
+.portfolio-box {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.portfolio-box-left {
+    float: left;
+    height: 220px;
+    width: 280px;
+}
+
+.portfolio-box-right {
+    float: right;
+    height: 220px;
+    width: 280px;
+}
+
+.portfolio-label {
+    position: relative;
+    background-color:#4aaaa5;
+    font-size: 30px;
+    width: 240px;
+    height: 40px;
+    bottom: 110px;
+    text-align: center;
+    padding: 20px;
 }
 
 .content {
