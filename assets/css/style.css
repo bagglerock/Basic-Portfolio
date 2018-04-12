@@ -36,7 +36,7 @@ p, .header-nav li, .header-nav a,  label, input, textarea {
 }
 
 .header, .footer {
-    width: 1160px;
+    width: 100%;
 }
 
 .header {
